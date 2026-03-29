@@ -1,0 +1,50 @@
+body {
+    background-image: url("Tigre aragua.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.95);
+    
+    max-width: 550px;
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #002d62;
+    border-radius: 10px;
+    text-align: center;
+   
+    box-sizing: border-box;
+}
+.logo { width: 100px; }
+h1 { color: #002d62; font-size: 20px; }
+label { display: block; text-align: left; margin-top: 15px; font-weight: bold; }
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #002d62;
+    box-sizing: border-box;
+}
+button {
+    background-color: #002d62;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tarjeta {
+    text-align: left;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    background: white;
+}
+.ok { border-left: 10px solid green; }
+.mal { border-left: 10px solid red; color: red; }

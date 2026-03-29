@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIGRES DE ARAGUA</title>
+    <link rel="stylesheet" href="tarea.css">
+</head>
+<body>
+    <div class="contenedor">
+        <img src="Tigre.jpg" alt="Logo" class="logo">
+        <h1>REGISTRO - TIGRES DE ARAGUA</h1>
+
+        <form class="caja_registro">
+            <label>NOMBRE DEL JUGADOR:</label>
+            <input type="text" placeholder="Ej: Miguel Cabrera">
+
+            <label>EXPERIENCIA (AÑOS):</label>
+            <input type="number" placeholder="0">
+
+            <label>POSICIÓN:</label>
+            <select>
+                <option>SELECCIONAR...</option>
+                <option>LANZADOR</option>
+                <option>BATEADOR</option>
+            </select>
+
+            <label>REPORTE MÉDICO :</label>
+            <textarea placeholder="ESCRIBA AQUÍ SI TIENE FRACTURA O ESTÁ SANO..." rows="4"></textarea>
+
+            <button type="button" onclick="alert('REGISTRO GUARDADO')">GUARDAR DATOS</button>
+        </form>
+
+        <hr>
+
+        <h3>JUGADORES EN EL SISTEMA</h3>
+        <div class="fichas">
+            <div class="tarjeta ok">Gorkys Hernández - (SANO)</div>
+            <div class="tarjeta ok">Alexi Amarista - (SANO)</div>
+            <div class="tarjeta mal">José Peraza - (FRACTURA DE CODO)</div>
+            <div class="tarjeta mal">Alberth Martínez - (FRACTURA DE PIERNA)</div>
+        </div>
+    </div>
+</body>
+</html>

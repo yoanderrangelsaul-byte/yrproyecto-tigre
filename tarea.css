@@ -1,5 +1,5 @@
 body {
-    background-image: url("Tigre aragua.jpg");
+    background-image: url("Tigre aragua.JPG");
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
@@ -8,16 +8,14 @@ body {
 }
 .contenedor {
     background-color: rgba(255, 255, 255, 0.95);
-    
     max-width: 550px;
-    width: 95%;
+    width: 95%; 
     margin: 20px auto;
     padding: 20px;
     border: 3px solid #002d62;
     border-radius: 10px;
     text-align: center;
-   
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 .logo { width: 100px; }
 h1 { color: #002d62; font-size: 20px; }
